@@ -1,7 +1,7 @@
 ![Laravelte](https://i.imgur.com/Nmvr35n.png)
 # Laravelte | Laravel 9 + Svelte Boilerplate
 
-![Latest Stable Version](https://img.shields.io/badge/stable-1.1-success)
+![Latest Stable Version](https://img.shields.io/badge/stable-1.2-success)
 
 ## About
 
@@ -9,10 +9,11 @@ Do you want to use the power of Laravel and Svelte combined with InertiaJS as th
 This repository is right for you then.
 It features the following built-in stack :
 
-- Laravel
-- Inertia.js
-- Svelte
-- TailwindCSS
+- [Laravel](https://github.com/laravel/laravel)
+- [Inertia.js](https://github.com/inertiajs/inertia)
+- [Svelte](https://github.com/sveltejs/svelte)
+- [TailwindCSS](https://github.com/tailwindlabs/tailwindcss)
+- [Vite](https://github.com/vitejs/vite)
 
 ## Requirements
 
@@ -24,9 +25,13 @@ It features the following built-in stack :
 1. Click on `Use this template` in the top right to use the boilerplate
 2. Install the required php packages using `composer install`
 3. Run `npm install` to install all npm packages
-4. Use `npm run watch` to start laravel mix watch your files
+4. Use `npm run dev` to start vite watch your files
 5. Last but not least use `php artisan serve` to start your laravel application
 
 ## Usage
 
 Simply create/edit your Svelte front-end files inside of the `/resources/js/Pages/`directory.
+
+## Deploy
+
+1. Execute `npm run build` to make vite build your project files
