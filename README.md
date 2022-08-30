@@ -26,7 +26,9 @@ It features the following built-in stack :
 2. Install the required php packages using `composer install`
 3. Run `npm install` to install all npm packages
 4. Use `npm run dev` to start vite watch your files
-5. Last but not least use `php artisan serve` to start your laravel application
+5. Copy the .env.example file by using `cp .env.example .env`
+6. Generate the laravel application key with `php artisan key:generate`
+7. Last but not least use `php artisan serve` to start your laravel application
 
 ## Usage
 
